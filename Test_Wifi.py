@@ -32,7 +32,7 @@ def FindFromSearchList():
 def connect():
     x = ' '
     ssid1 = 'UnistellarBench'
-    password1 = ';t;F?muFg5:7'
+    password1 = ' '
     wireless = Wireless()
     x = wireless.connect(ssid=ssid1, password=password1)
     return x
